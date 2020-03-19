@@ -1,0 +1,9 @@
+D:\WorkDocument\MyProject\QueueSystem\QueueManagement\project\QueueServiceTest\QueueServiceTest\bin\Debug\QueueServiceTest.exe.config
+D:\WorkDocument\MyProject\QueueSystem\QueueManagement\project\QueueServiceTest\QueueServiceTest\bin\Debug\QueueServiceTest.exe
+D:\WorkDocument\MyProject\QueueSystem\QueueManagement\project\QueueServiceTest\QueueServiceTest\bin\Debug\QueueServiceTest.pdb
+D:\WorkDocument\MyProject\QueueSystem\QueueManagement\project\QueueServiceTest\QueueServiceTest\obj\Debug\QueueServiceTest.csprojAssemblyReference.cache
+D:\WorkDocument\MyProject\QueueSystem\QueueManagement\project\QueueServiceTest\QueueServiceTest\obj\Debug\QueueServiceTest.Form1.resources
+D:\WorkDocument\MyProject\QueueSystem\QueueManagement\project\QueueServiceTest\QueueServiceTest\obj\Debug\QueueServiceTest.Properties.Resources.resources
+D:\WorkDocument\MyProject\QueueSystem\QueueManagement\project\QueueServiceTest\QueueServiceTest\obj\Debug\QueueServiceTest.csproj.GenerateResource.cache
+D:\WorkDocument\MyProject\QueueSystem\QueueManagement\project\QueueServiceTest\QueueServiceTest\obj\Debug\QueueServiceTest.exe
+D:\WorkDocument\MyProject\QueueSystem\QueueManagement\project\QueueServiceTest\QueueServiceTest\obj\Debug\QueueServiceTest.pdb

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+此文件由 Web 项目的发布/打包过程使用。可以通过编辑此 MSBuild 文件
+自定义此过程的行为。为了解与此相关的更多内容，请访问 https://go.microsoft.com/fwlink/?LinkID=208121。 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://192.168.0.106:8081/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/CallSysServicce.dll">
+      <publishTime>03/19/2020 17:26:46</publishTime>
+    </File>
+    <File Include="bin/CallSysServicce.pdb">
+      <publishTime>03/19/2020 17:26:46</publishTime>
+    </File>
+    <File Include="bin/CommonUtils.dll">
+      <publishTime>03/19/2020 17:12:39</publishTime>
+    </File>
+    <File Include="bin/CommonUtils.pdb">
+      <publishTime>03/19/2020 17:12:39</publishTime>
+    </File>
+    <File Include="bin/Google.Protobuf.dll">
+      <publishTime>12/21/2017 20:23:44</publishTime>
+    </File>
+    <File Include="bin/ICSharpCode.SharpZipLib.dll">
+      <publishTime>11/10/2017 18:14:24</publishTime>
+    </File>
+    <File Include="bin/itextsharp.dll">
+      <publishTime>01/22/2018 18:40:38</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/08/2017 19:26:22</publishTime>
+    </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>01/28/2019 07:41:58</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Common.dll">
+      <publishTime>03/27/2019 10:02:46</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Interfaces.dll">
+      <publishTime>03/27/2019 10:02:44</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Redis.dll">
+      <publishTime>03/27/2019 09:15:56</publishTime>
+    </File>
+    <File Include="bin/ServiceStack.Text.dll">
+      <publishTime>03/27/2019 09:10:24</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.ClientEngine.dll">
+      <publishTime>01/30/2018 20:05:08</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.Common.dll">
+      <publishTime>04/06/2016 22:46:24</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.Facility.dll">
+      <publishTime>04/06/2016 22:46:24</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.ProtoBase.dll">
+      <publishTime>06/07/2017 18:49:40</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.SocketBase.dll">
+      <publishTime>04/06/2016 22:46:24</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.SocketEngine.dll">
+      <publishTime>04/06/2016 22:46:26</publishTime>
+    </File>
+    <File Include="bin/SuperSocket.SocketService.exe">
+      <publishTime>04/06/2016 22:46:26</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>07/19/2017 10:01:28</publishTime>
+    </File>
+    <File Include="bin/System.Memory.dll">
+      <publishTime>11/29/2018 15:39:16</publishTime>
+    </File>
+    <File Include="bin/System.Numerics.Vectors.dll">
+      <publishTime>07/19/2017 10:01:36</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>09/18/2018 19:38:10</publishTime>
+    </File>
+    <File Include="CallService.asmx">
+      <publishTime>03/01/2020 21:01:51</publishTime>
+    </File>
+    <File Include="Config/log4net.config">
+      <publishTime>03/01/2020 21:41:47</publishTime>
+    </File>
+    <File Include="Config/log4net.unix.config">
+      <publishTime>03/01/2020 21:41:47</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/02/2020 10:26:29</publishTime>
+    </File>
+    <File Include="supersocket.cmd">
+      <publishTime>03/01/2020 21:41:47</publishTime>
+    </File>
+    <File Include="supersocket.sh">
+      <publishTime>03/01/2020 21:41:47</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/19/2020 17:26:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
