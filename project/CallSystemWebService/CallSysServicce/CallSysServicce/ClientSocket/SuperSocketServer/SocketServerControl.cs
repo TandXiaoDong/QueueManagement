@@ -11,7 +11,7 @@ using SuperSocketServer.AppBase;
 using CommonUtils.Logger;
 using System.Threading;
 
-namespace CableTestManager.SuperSocketServer
+namespace CallSysServicce.SuperSocketServer
 {
     public class SocketServerControl
     {

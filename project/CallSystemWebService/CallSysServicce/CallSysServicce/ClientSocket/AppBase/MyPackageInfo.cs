@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using SuperSocket.ProtoBase;
 using SuperSocket.SocketBase.Protocol;
 
-namespace CableTestManager.ClientSocket.AppBase
+namespace CallSysServicce.ClientSocket.AppBase
 {
    public  class MyPackageInfo:IPackageInfo
     {

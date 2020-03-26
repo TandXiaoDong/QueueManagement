@@ -7,6 +7,7 @@ using SuperSocket.SocketBase;
 using SuperSocket.Common;
 using SuperSocket.SocketEngine;
 using CommonUtils.Logger;
+using CallSysServicce.ClientSocket;
 
 namespace CallSysServicce
 {
@@ -16,10 +17,12 @@ namespace CallSysServicce
     [WebService(Namespace = "http://callSystem.service/")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
+
     // 若要允许使用 ASP.NET AJAX 从脚本中调用此 Web 服务，请取消注释以下行。 
     // [System.Web.Script.Services.ScriptService]
     public class CallService : System.Web.Services.WebService
     {
+
         /// <summary>
         /// 转发智能发药通知上屏/下屏指令
         /// </summary>
@@ -33,7 +36,16 @@ namespace CallSysServicce
         {
             //收到上屏或下屏指令，通知屏幕显示上屏/下屏
             //连接服务，发送成功后，返回1
-            //直接发送到客户端服务，若发送失败，重新连接后再发送，最终返回发送结果
+            //直接发送到客户端，若发送失败，重新连接后再发送，最终返回发送结果
+
+            if (!SuperEasyClient.client.IsConnected)
+            {
+                SuperEasyClient.ConnectServer();
+            }
+            else
+            {
+                SuperEasyClient.SendMessage();
+            }
             return "1";
         }
     }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CableTestManager.ClientSocket.AppBase
+namespace CallSysServicce.ClientSocket.AppBase
 {
 
 

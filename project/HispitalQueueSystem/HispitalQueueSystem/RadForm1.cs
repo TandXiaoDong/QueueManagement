@@ -9,11 +9,14 @@ using System.Windows.Forms;
 using Telerik.WinControls;
 using Telerik.WinControls.UI;
 using WindowsFormTelerik.ControlCommon;
+using SuperSocket.SocketBase;
+using CommonUtils.Logger;
 
 namespace HispitalQueueSystem
 {
     public partial class RadForm1 : Telerik.WinControls.UI.RadForm
     {
+        private AppServer appServer;
         public RadForm1()
         {
             InitializeComponent();
@@ -22,44 +25,28 @@ namespace HispitalQueueSystem
 
         private void RadForm1_Load(object sender, EventArgs e)
         {
-            
-            RadGridViewProperties.SetRadGridViewProperty(this.radGridView1,true);
-
+            RadGridViewProperties.SetRadGridViewProperty(this.radGridView1, true,true,0);
         }
 
         private void AppServer()
         {
-            var appServer = new AppServer();
+            appServer = new AppServer();
 
             //Setup the appServer
-            if (!appServer.Setup(2012)) //Setup with listening port
+            if (!appServer.Setup(10011)) //Setup with listening port
             {
-                Console.WriteLine("Failed to setup!");
-                Console.ReadKey();
+                LogHelper.Log.Info("Failed to setup port!");
                 return;
             }
 
             //Try to start the appServer
             if (!appServer.Start())
             {
-                Console.WriteLine("Failed to start!");
-                Console.ReadKey();
+                LogHelper.Log.Info("Failed to start server!");
                 return;
             }
 
-            Console.WriteLine("The server started successfully, press key 'q' to stop it!");
-
-            while (Console.ReadKey().KeyChar != 'q')
-            {
-                Console.WriteLine();
-                continue;
-            }
-
-            //Stop the appServer
-            appServer.Stop();
-
-            Console.WriteLine("The server was stopped!");
-            Console.ReadKey();
+            LogHelper.Log.Info("The server started successfully!");
         }
     }
 }

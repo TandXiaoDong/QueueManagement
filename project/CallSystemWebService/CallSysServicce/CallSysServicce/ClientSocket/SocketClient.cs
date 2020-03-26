@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using CableTestManager.ClientSocket.AppBase;
+using CallSysServicce.ClientSocket.AppBase;
 
-namespace CableTestManager.ClientSocket
+namespace CallSysServicce.ClientSocket
 {
     public class SocketClient
     {

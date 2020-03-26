@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29411.108
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallSysServicce", "CallSysServicce.csproj", "{AB59A7BC-8D84-4768-878B-C6196A6E11F2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonUtils", "..\..\..\..\..\..\..\MyRepository\CommonRepository\MyCommonLibrary001\CommonUtils\CommonUtils\CommonUtils.csproj", "{D3E16B6B-43AB-407B-94AA-964852FD6EE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonUtils", "..\..\..\..\..\..\MyRepository\CommonRepository\MyCommonLibrary001\CommonUtils\CommonUtils\CommonUtils.csproj", "{3D8B34C0-8BDA-419C-B666-FBEC09DCEA75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{AB59A7BC-8D84-4768-878B-C6196A6E11F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB59A7BC-8D84-4768-878B-C6196A6E11F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB59A7BC-8D84-4768-878B-C6196A6E11F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3E16B6B-43AB-407B-94AA-964852FD6EE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3E16B6B-43AB-407B-94AA-964852FD6EE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3E16B6B-43AB-407B-94AA-964852FD6EE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3E16B6B-43AB-407B-94AA-964852FD6EE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D8B34C0-8BDA-419C-B666-FBEC09DCEA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D8B34C0-8BDA-419C-B666-FBEC09DCEA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D8B34C0-8BDA-419C-B666-FBEC09DCEA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D8B34C0-8BDA-419C-B666-FBEC09DCEA75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

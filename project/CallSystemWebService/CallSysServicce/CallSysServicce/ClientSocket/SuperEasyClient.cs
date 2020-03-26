@@ -8,12 +8,12 @@ using System.Threading;
 using SuperSocket.ClientEngine;
 using CommonUtils.ByteHelper;
 using CommonUtils.Logger;
-using CableTestManager.ClientSocket.AppBase;
+using CallSysServicce.ClientSocket.AppBase;
 using System.Configuration;
 using SuperSocket.SocketBase.Protocol;
 using SuperSocket.ProtoBase;
 
-namespace CableTestManager.ClientSocket
+namespace CallSysServicce.ClientSocket
 {
     public class SuperEasyClient
     {

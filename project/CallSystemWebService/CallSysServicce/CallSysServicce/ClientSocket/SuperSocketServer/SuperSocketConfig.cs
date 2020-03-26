@@ -7,7 +7,7 @@ using System.Configuration;
 using SuperSocket.SocketBase.Config;
 using CommonUtils.Logger;
 
-namespace CableTestManager.SuperSocketServer
+namespace CallSysServicce.SuperSocketServer
 {
     class SuperSocketConfig
     {

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using SuperSocket.ProtoBase;
 //using SuperSocket.Facility.Protocol;
 
-namespace CableTestManager.ClientSocket.AppBase
+namespace CallSysServicce.ClientSocket.AppBase
 {
    public  class MyReceiveFilter:FixedHeaderReceiveFilter<MyPackageInfo> 
     {
