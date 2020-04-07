@@ -9,6 +9,7 @@ using Telerik.WinControls;
 using SuperSocket.SocketBase;
 using CommonUtils.Logger;
 using WindowsFormTelerik.ControlCommon;
+using System.Speech.Synthesis;
 
 namespace HispitalQueueSystem
 {
@@ -19,6 +20,36 @@ namespace HispitalQueueSystem
         public FrmQueueSystemMain()
         {
             InitializeComponent();
+        }
+
+        private void SpeechTest()
+        {
+            SpeechSynthesizer speech = new SpeechSynthesizer();
+            speech.Rate = -2;
+            GetLocalVoice(speech);
+            var voice = "Microsoft Huihui Desktop";
+            speech.SelectVoice(voice);//设置播音员（中文）
+                                                 //speech.SelectVoice("Microsoft Anna"); //英文
+            speech.Volume = 100;
+            speech.SpeakAsync("请张三到20088号窗口");//语音阅读方法
+            //speech.SpeakAsyncCancelAll();
+            speech.SpeakCompleted += Speech_SpeakCompleted;
+        }
+
+        private string GetLocalVoice(SpeechSynthesizer speech)
+        {
+            ////获取本机上所安装的所有的Voice的名称
+            string voicestring = "";
+            foreach (InstalledVoice iv in speech.GetInstalledVoices())
+            {
+                voicestring += iv.VoiceInfo.Name + ",";
+            }
+            return voicestring;
+        }
+
+        private void Speech_SpeakCompleted(object sender, SpeakCompletedEventArgs e)
+        {
+            MessageBox.Show("播报完成！");
         }
 
         private void AppServer()
@@ -51,6 +82,8 @@ namespace HispitalQueueSystem
             this.radGridView1.Rows[0].Cells[0].Value = "12号";
             this.radGridView1.Rows[0].Cells[1].Value = "黄忠华";
             this.radGridView1.Rows[0].Cells[2].Value = "3号";
+
+            SpeechTest();
         }
     }
 }
